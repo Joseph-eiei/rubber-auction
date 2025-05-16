@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ส่งราคาประมูลยางพารา</title>
+</head>
+<body>
+  <h1>ส่งราคาประมูลยางพารา</h1>
+  <% if (message) { %>
+    <p style="color:green;"><%= message %></p>
+  <% } %>
+  <form action="/" method="post">
+    ชื่อ: <input type="text" name="name" required><br><br>
+    ราคาประมูล (บาท): <input type="number" name="price" required><br><br>
+    <button type="submit">ยืนยัน</button>
+  </form>
+</body>
+</html>
