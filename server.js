@@ -91,11 +91,8 @@ app.get('/result', requireAdmin, (req, res) => {
   res.render('result', { data: todays, displayDate });
 });
 
-<<<<<<< HEAD
 // 9. Export for Vercel
-=======
 // สตาร์ท server
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
->>>>>>> 5004aa3 (Update server.js)
 module.exports = app;
